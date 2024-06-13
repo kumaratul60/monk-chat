@@ -1,0 +1,21 @@
+.message-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  padding: 8px;
+  margin: 4px;
+  border-radius: 8px;
+  max-width: 70%;
+}
+
+.message-left {
+  align-self: flex-start;
+  background-color: #f0f0f0;
+}
+
+.message-right {
+  align-self: flex-end;
+  background-color: #dcf7c5;
+}

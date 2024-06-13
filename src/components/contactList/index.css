@@ -1,0 +1,19 @@
+.contact-list {
+  width: 30%;
+  border-right: 1px solid #ccc;
+  overflow-y: auto;
+  background-color: white;
+}
+
+.contact-chat {
+  margin: 0 5px;
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .contact-list {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+  }
+}
